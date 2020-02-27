@@ -6,8 +6,7 @@ const CourseSchema = db.define(
   {
     title: {
       type: Sequelize.STRING,
-      allowNull: false,
-      trim: true
+      allowNull: false
     },
     description: {
       type: Sequelize.TEXT
