@@ -34,7 +34,7 @@ const UserSchema = db.define(
     }
   },
   {
-    timestamps: false
+    //timestamps: false
   }
 );
 
